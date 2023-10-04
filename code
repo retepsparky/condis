@@ -1,0 +1,23 @@
+// conversion of distance cli
+#include <stdio.h>
+int main()
+{
+    float km, m, cm, ft, inch;
+    printf("\nEnter the distance in km: ");
+    scanf("%f", &km);
+    m = km * 1000;
+    cm = m * 100;
+    inch = cm / 2.54;
+    ft = inch / 12;
+    printf("\n");
+    printf("\n");
+    printf("distance in M = %f\n", m);
+    printf("\n");
+    printf("distance in CM = %f\n", cm);
+    printf("\n");
+    printf("distance in feet = %f\n", ft);
+    printf("\n");
+    printf("distance in inches = %f\n", inch);
+    printf("\n");
+    return 0;
+}
