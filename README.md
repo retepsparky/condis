@@ -1,4 +1,1 @@
-# condis
-# condis
-# condis
-# condis
+conversion of KM to m,cm,f,i
